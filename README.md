@@ -1,24 +1,52 @@
-# Active Directory Home Lab — In Progress. Windows Server VM lab covering user creation, permissions, and lockout recovery. Documentation coming soon.
+# Active Directory Home Lab
 
-Hands-on Active Directory lab built to demonstrate user 
-provisioning, group management, account lockouts, password 
-resets, and MFA simulation in a Windows Server environment.
+Hands-on Windows Server lab built to simulate real help desk 
+and IT support scenarios using Active Directory Domain Services.
 
 ## Why I Built This
-Active Directory appears in nearly every help desk and IT 
-support JD. Built this lab to show I can do it, not just 
-list it.
 
-## What It Covers
-- Windows Server VM setup and AD installation
-- User creation, group assignment, and permission management
-- Account lockout simulation and recovery
-- Password reset workflows
-- MFA configuration
+Active Directory shows up in nearly every help desk and IT 
+support job description. I built this lab to demonstrate I 
+can actually do the work not just list it as a skill.
 
-## Skills
-Active Directory · Windows Server · IAM · User Provisioning · 
-Group Policy · Identity Management
+## What I Built
+
+- Installed Windows Server 2022 in VirtualBox and promoted 
+  it to a Domain Controller (lab.local)
+- Created users (jsmith, sjones, mdavis) and organized them 
+  into department Organizational Units: IT, HR, and Finance
+- Simulated account lockout and recovery using both the GUI 
+  and command line
+- Performed a password reset with forced change on next login
+- Created an IT_Admins security group and assigned a member
+
+## STAR Breakdown
+
+**Situation:** A user calls the help desk saying they cannot 
+log into their account. The account has been flagged and 
+locked due to failed login attempts.
+
+**Task:** Locate the user in Active Directory, confirm the 
+account is locked, reset access, and ensure the user can 
+log back in securely.
+
+**Action:** Opened Active Directory Users and Computers, 
+located the user account, unlocked it via the Account tab, 
+and reset the password with a forced change on next login. 
+Also demonstrated the same workflow via command line using 
+net user commands for environments without GUI access.
+
+**Result:** Account restored with a new secure password. 
+User can log back in and is required to set their own 
+password on first login — following least privilege and 
+security best practices.
+
+## Skills Demonstrated
+
+Active Directory · Windows Server · Identity and Access 
+Management · User Provisioning · Organizational Units · 
+Group Policy · Password Reset · Account Lockout Recovery · 
+Command Line Administration
 
 ### Completed Steps
 - Windows Server 2022 installed in VirtualBox
