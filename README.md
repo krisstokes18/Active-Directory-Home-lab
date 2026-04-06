@@ -31,7 +31,33 @@ Group Policy · Identity Management
 - Created IT_Admins security group
 
 ## Screenshots
-See /docs folder for all lab screenshots
+
+### Windows Server 2022 Installed
+![Windows Server Installed](docs/windows_server_2022_installed.png)
+
+### Active Directory Role Installed
+![AD Role Installed](docs/ad_role_installation_complete.png)
+
+### Users Created in Active Directory
+![AD Users Created](docs/ad_users_created.png)
+
+### Organizational Units
+![IT Department OU](docs/IT_Department_OU.png)
+![HR Department OU](docs/HR_Department_OU.png)
+![Finance Department OU](docs/Finance_Department_OU.png)
+
+### Account Lockout Simulation
+![Account Active Before Lockout](docs/account_active_before_lockout.png)
+![Account Disabled](docs/account_disabled_lockout.png)
+![Account Unlocked](docs/account_unlocked.png)
+![Disable and Re-enable via Command Line](docs/account_disable_reenable_commands.png)
+
+### Password Reset
+![Password Reset Confirmation](docs/password_reset_confirmation.png)
+
+### Security Group
+![IT Admins Group with Member](docs/IT_Admins_group_with_member.png)
+
 
 ## Links
 - LinkedIn: https://www.linkedin.com/in/kris-stokes-it/
