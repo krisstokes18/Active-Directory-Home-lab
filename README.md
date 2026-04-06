@@ -20,8 +20,18 @@ list it.
 Active Directory · Windows Server · IAM · User Provisioning · 
 Group Policy · Identity Management
 
-## Status
-Lab in progress. Screenshots and documentation being added.
+### Completed Steps
+- Windows Server 2022 installed in VirtualBox
+- Active Directory Domain Services role installed
+- Server promoted to Domain Controller (lab.local)
+- Created 3 users: jsmith, sjones, mdavis
+- Created 3 Organizational Units: IT, HR, Finance
+- Simulated account lockout and recovery
+- Performed password reset with forced change on next login
+- Created IT_Admins security group
+
+## Screenshots
+See /docs folder for all lab screenshots
 
 ## Links
 - LinkedIn: https://www.linkedin.com/in/kris-stokes-it/
